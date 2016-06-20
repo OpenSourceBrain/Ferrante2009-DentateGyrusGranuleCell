@@ -1,7 +1,7 @@
-## Dentate Gyrus Granule cell Ferrante et al. 2009
+## Dentate Gyrus Granule cell Ferrante et al. 2008
 
 Model from: Feed-forward inhibition as a buffer of the neuronal input-output relation
-Ferrante M., Migliore M. and Ascoli G.A., 2009 [PNAS 106(42):18004-18009](http://www.pnas.org/content/106/42/18004.full.pdf?with-ds=yes)
+Ferrante M., Migliore M. and Ascoli GA., 2008 [PNAS 106(42):18004-18009](http://www.pnas.org/content/106/42/18004.full.pdf?with-ds=yes)
 
 ### NEURON version of model:
 
