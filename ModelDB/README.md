@@ -4,8 +4,8 @@ These files are the original model scripts for use with the [NEURON simulator](h
 
 To run the scripts, [install NEURON](https://www.neuron.yale.edu/neuron/download) and run:
 
-    git clone https://github.com/andrisecker/Ferrante2009-GanuleCell.git  # clones the git repository
-    cd Ferrante2009-GanuleCell/ModelDB/Granule_Fig_1B_right
+    git clone https://github.com/OpenSourceBrain/Ferrante2009-DentateGyrusGranuleCell.git  # clones the git repository
+    cd Ferrante2009-DentateGyrusGranuleCell/ModelDB/Granule_Fig_1B_right
     nrnivmodl  # compile .mod files
     nrngui nrngui FIG_1B_right.hoc  # runs a simulation
     specify the amplitude of the input current and press init&run
