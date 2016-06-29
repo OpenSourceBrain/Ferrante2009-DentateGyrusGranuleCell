@@ -61,7 +61,7 @@
       </segment>
 <!-- Section: granulecell[0].soma[1] (segmentGroup: soma_1) which has 2 3D points, so 1 segment(s)-->
       <segment id="12" name = "Seg0_soma_1">  <!-- Connected at 0 on parent section: granulecell[0].soma[0]  -->
-        <parent segment="0"/>
+        <parent segment="0" fractionAlong="0.0"/>
         <proximal x="-3.337" y="0" z="0" diameter="7.82"/>
         <distal x="-4.162" y="0.2" z="0" diameter="4.16"/>
       </segment>
@@ -6119,10 +6119,10 @@
       <membraneProperties>
 
         <channelDensity id="leak_all" ionChannel="leak_chan" condDensity="0.166667mS_per_cm2" segmentGroup="all" erev="-74mV" ion="non_specific"/>
-        <channelDensity id="Na_soma_group" ionChannel="Na" condDensity="200mS_per_cm2" segment_group="soma_group" erev="55mV" ion="na"/>
-        <channelDensity id="Na_dendrite_group" ionChannel="Na" condDensity="66.6667mS_per_cm2" segment_group="dendrite_group" erev="55mV" ion="na"/>
-        <channelDensity id="Na_axon_group" ionChannel="Na" condDensity="200mS_per_cm2" segment_group="axon_group" erev="55mV" ion="na"/>
-        <channelDensity id="Kdrfast_all" ionChannel="Kdrfast" condDensity="60mS_per_cm2" segment_group="all" erev="-90mV" ion="k"/>
+        <channelDensity id="Na_soma_group" ionChannel="Na" condDensity="200mS_per_cm2" segmentGroup="soma_group" erev="55mV" ion="na"/>
+        <channelDensity id="Na_dendrite_group" ionChannel="Na" condDensity="66.6666667mS_per_cm2" segmentGroup="dendrite_group" erev="55mV" ion="na"/>
+        <channelDensity id="Na_axon_group" ionChannel="Na" condDensity="200mS_per_cm2" segmentGroup="axon_group" erev="55mV" ion="na"/>
+        <channelDensity id="Kdrfast_all" ionChannel="Kdrfast" condDensity="60mS_per_cm2" segmentGroup="all" erev="-90mV" ion="k"/>
         
         <spikeThresh value="0 mV"/>
         <specificCapacitance value="2.5 uF_per_cm2" />
