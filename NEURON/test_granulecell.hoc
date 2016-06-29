@@ -1,15 +1,10 @@
-show_plot = 1
-
 {load_file("nrngui.hoc")}
-
-
 //{load_file("nCtools.hoc")}	
 //{load_file("cellCheck.hoc")}	
 
-numCellTypes = 1
-objref cellType[1]
 objref CELL
-	
+show_plot = 1
+
 print "##### Granule cell started #####"
 
 {startsw()}
