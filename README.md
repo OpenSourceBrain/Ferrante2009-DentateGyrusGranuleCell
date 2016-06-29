@@ -7,10 +7,14 @@ Ferrante M., Migliore M. and Ascoli GA., 2009 [PNAS 106(42):18004-18009](http://
 
 This model was originally developed in [NEURON](https://www.neuron.yale.edu/neuron/)
 
-More details on the original NEURON version of this model [here](https://github.com/andrisecker/Ferrante2009-GanuleCell/tree/master/ModelDB/Granule_Fig_1B_right)
+More details on the original NEURON version of this model [here](/ModelDB/Granule_Fig_1B_right)
 
 -------------------------------------------------------------------------------------------------------------------------------
 
 ### NeuroML2/LEMS version of model
 
-This model will be converted to NeuroML2/LEMS ...
+The model has been converted to NeuroML2/LEMS:
+
+[![Build Status](https://travis-ci.org/OpenSourceBrain/Ferrante2009-DentateGyrusGranuleCell.svg?branch=master)](https://travis-ci.org/OpenSourceBrain/Ferrante2009-DentateGyrusGranuleCell)
+
+More details on the NeuroML2/LEMS version of this model [here](/NeuroML2/).
